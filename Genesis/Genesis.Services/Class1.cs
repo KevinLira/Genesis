@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Genesis.Data
+namespace Genesis.Services
 {
     public class Class1
     {

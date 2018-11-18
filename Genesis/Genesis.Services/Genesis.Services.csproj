@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Genesis.Common\Genesis.Common.csproj" />
-    <ProjectReference Include="..\Genesis.Data\Genesis.Data.csproj" />
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Genesis.Busines\Genesis.Busines.csproj" />
   </ItemGroup>
 </Project>
